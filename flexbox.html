@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contaner {
+            height: 400px;
+            display: flex;
+            border: 1px dashed navy;
+
+        }
+
+        .box {
+            width: 200px;
+            border: 5px dotted lightgreen;
+            font-size: 3em;
+
+        }
+
+        #box-1 {
+            width: 200px;
+            flex-grow: 2;
+        }
+
+        #box-2 {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I am flexible right now </h1>
+    <div class="contaner">
+        <div id="box-1" class="box">Box-1</div>
+        <div id="box-2" class="box">Box-2</div>
+
+
+    </div>
+
+
+</body>
+
+</html>

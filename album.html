@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <style>
+        .photo-album {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .photo-fram {
+            width: 400px;
+            height: 150px;
+            border: 3px solid goldenrod;
+            position: relative;
+            margin: 15px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 150px;
+
+        }
+
+        .photo-detail {
+            position: absolute;
+            width: 400px;
+            top: 0px;
+            display: none;
+        }
+
+        .photo-fram:hover .photo-detail {
+            display: block;
+            background-color: rgba(185, 192, 174, 0.4);
+        }
+
+        .photo-fram:hover .photo {
+            transform: scale(1.5) skew(-45deg);
+            transition: 2s ease-in-out;
+
+        }
+
+        .photo-detail h3 {
+            text-align: center;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My awesome phot album</h1>
+    <div class="photo-album">
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+        <div class="photo-fram">
+            <div class="photo">
+                <img src="tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>Tiger mama aesa </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi maxime laboriosam officiis eligendi
+                    dicta, vero, maiores rem unde facilis, et recusandae ipsa magni officia earum numquam iste! Ipsam,
+                    harum eum?</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
